@@ -1,0 +1,329 @@
+/* Hero Section */
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.unsplash.com/photo-1615461066841-6116e61058f4');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+ 
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: #e2e8f0;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.donate-now-btn {
+  background-color: #e53e3e;
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.donate-now-btn:hover {
+  background-color: #c53030;
+}
+
+/* Statistics Section */
+.statistics-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 4rem 2rem;
+  max-width: 100%;
+  margin: 20px 0px ;
+  background-color: rgb(164, 37, 41);
+}
+
+.statistic-card {
+  background: rgb(238, 235, 235);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.statistic-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-icon {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
+  background: #f7fafc;
+}
+
+.icon-users { color: #4299e1; }
+.icon-activity { color: #e53e3e; }
+.icon-droplets { color: #48bb78; }
+.icon-heart { color: #805ad5; }
+
+.stat-content h2 {
+  color: #4a5568;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.statistic-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+/* Blood Type Section */
+.blood-type-section {
+  background-color: #efefe9;
+  padding: 4rem 2rem;
+}
+
+.blood-type-info {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.blood-type-info h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.table-container {
+  overflow-x: auto;
+  background: rgb(243, 239, 239);
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.blood-type-table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+.blood-type-table th,
+.blood-type-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #c40606;
+}
+
+.blood-type-table th {
+  background-color: #e53e3e;
+  color: white;
+  font-weight: 600;
+}
+
+.blood-type-table tr:hover {
+  background-color: #f7fafc;
+}
+
+/* Articles Section */
+.articles-section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.articles-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 2rem;
+}
+
+.articles-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.article-card {
+  background: rgb(250, 226, 243);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+}
+
+.article-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.article-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.article-content {
+  padding: 1.5rem;
+}
+
+.article-content h3 {
+  font-size: 1.25rem;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.article-content p {
+  color: #4a5568;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.read-more {
+  color: #e53e3e;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.read-more:hover {
+  color: #c53030;
+}
+
+/* Motivation Section */
+.motivation-section {
+  background-color: #f7fafc;
+  padding: 4rem 2rem;
+}
+
+.motivation-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.motivation-content h2 {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+}
+
+.motivation-text p {
+  color: #4a5568;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.register-btn {
+  background-color: #e53e3e;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #c53030;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('https://images.unsplash.com/photo-1581594693702-fbdc51b2763b');
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.cta-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: white;
+  color: #e53e3e;
+  padding: 1rem 2.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #f7fafc;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.25rem;
+  }
+
+  .statistics-container {
+    grid-template-columns: 1fr;
+  }
+
+  .blood-type-table {
+    font-size: 0.875rem;
+  }
+
+  .articles-container {
+    grid-template-columns: 1fr;
+  }
+
+  .motivation-content h2,
+  .cta-content h2 {
+    font-size: 2rem;
+  }
+}
